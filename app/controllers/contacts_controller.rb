@@ -1,5 +1,4 @@
-class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [ :home ]
+class ContactsController < ApplicationController
   def new
     @contact = Contact.new
   end
