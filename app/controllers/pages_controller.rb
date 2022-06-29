@@ -16,4 +16,7 @@ class PagesController < ApplicationController
       render :new
     end
   end
+
+  def doodles
+  end
 end
