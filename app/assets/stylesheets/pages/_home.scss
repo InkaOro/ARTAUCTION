@@ -1,8 +1,16 @@
 // Specific CSS for your home-page
 body {
   background: black;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
+.main {
+  flex-grow: 1;
+}
 
 .banner {
   background-size: cover;
