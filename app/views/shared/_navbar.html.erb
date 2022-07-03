@@ -1,17 +1,22 @@
-<div class="container">
-<nav class="navbar navbar-expand-lg navbar-dark bg-black">
-  <a class="navbar-brand" href="/">Pop Up Art Auctions</a>
-  <a href="https://www.instagram.com/popupartauctions/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-  <a class="nav-link text-white s-5" href="/contacts/new">Contact Me</a>
-  <%# <%= link_to "Do you like to doodle?", doodles_path%>
 
-  <div class="navbar-collapse justify-content-end" id="navbarNav">
-        <%# <a class="nav-link text-white btn btn-primary me-3" href="/doodles">Fancy a doodle?<span class="sr-only">(current)</span></a> %>
-    <ul class="navbar-nav">
-      <li class="nav-item active">
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-black">
+<div class="container-fluid">
+  <a class="navbar-brand" href="/">Pop Up Art Auctions</a>
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="d-flex nav-item">
+          <a class="navbar-brand nav-link active" aria-current="page" href="/contacts/new">Contact</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/popupartauctions/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        </li>
+      </ul>
+      <form class="d-flex">
         <a class="nav-link text-white btn btn-danger" href="/artists">Artists: Open Call <span class="sr-only">(current)</span></a>
-      </li>
-    </ul>
+      </form>
+    </div>
   </div>
 </nav>
-</div>
