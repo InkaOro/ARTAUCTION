@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [ :home, :index, :doodles ]
+  skip_before_action :authenticate_user!, only: [ :home, :index, :doodles, :auction_artists ]
 
 
   def new
@@ -19,4 +19,8 @@ class PagesController < ApplicationController
 
   def doodles
   end
+
+  def auction_artists
+  end
+
 end
