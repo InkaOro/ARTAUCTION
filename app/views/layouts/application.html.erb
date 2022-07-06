@@ -11,6 +11,8 @@
 
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
 
+    <%= analytics_init if GoogleAnalytics.valid_tracker? %>
+
   </head>
 
   <body>

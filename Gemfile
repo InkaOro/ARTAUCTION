@@ -32,6 +32,7 @@ gem 'devise'
 gem 'bootstrap', '~> 5.1.3'
 gem 'jquery-rails'
 gem 'mail_form'
+gem 'google-analytics-rails', '1.1.1'
 
 gem 'autoprefixer-rails', '10.2.5'
 gem 'font-awesome-sass', '~> 5.6.1'

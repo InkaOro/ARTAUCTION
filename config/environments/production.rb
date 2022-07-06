@@ -128,4 +128,6 @@ Rails.application.configure do
     :authentication => :plain,
   }
   ActionMailer::Base.delivery_method = :smtp
+
+  GA.tracker = "G-PGPBSM5XXG"
 end
