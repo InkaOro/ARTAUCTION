@@ -5,15 +5,12 @@
 }
 .cards {
   flex-grow: 1;
-  display: grid;
+  display: flex;
   flex-wrap: wrap;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 16px;
   padding: 16px;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-self: start;
-
+  justify-content: space-evenly ;
 
 }
 
@@ -124,7 +121,7 @@ h3  {
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
   .cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   #map {
     display: none;
